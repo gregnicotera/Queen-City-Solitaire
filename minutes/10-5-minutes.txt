@@ -1,0 +1,29 @@
+Meeting Minutes for (date): 10-5-18
+
+Meeting Attendance: (list all students who were present) [1 minute]
+	Put an 'M' next to the name of the student taking minutes
+	Lynda M 
+	Greg
+	Clark
+	Zhijie
+	Yi
+	
+Tasks completed since last meeting [1-2 minutes]
+	Finished project phase 1
+	
+Tasks worked upon but not completed since last meeting [2-4 minutes]
+	Each new game of Little Spider shuffles the deck; 
+	moves the Ace of Hearts, Ace of Diamonds, King of Clubs, 
+	and King of Spades to their homecells; and then deals 6 cards 
+	to each tableau pile
+	
+Goals for the next meeting [20+ minutes]
+Figure out how to reference to local URL
+Everybody watch Java GUI Solitaire on YouTube.
+Greg and Lynda work on menu GUI.
+Clark work on display of 52 cards.
+Zhijie and Yi work on exit and Golf and Little Spider functions
+Plan out rest of the rubric
+
+Schedule for the next week's set of pair programming meetings [3-4 minutes]
+	Friday 11am-1pm 

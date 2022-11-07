@@ -1,0 +1,25 @@
+Meeting Minutes for (date):9/17/2018
+
+Meeting Attendance: (list all students who were present) [1 minute]
+	Put an 'M' next to the name of the student taking minutes
+	Lynda M 
+	Greg
+	Clark
+	Zhijie
+	Yi
+	
+Tasks completed since last meeting [1-2 minutes]
+	wrote majority of junit test
+	
+Tasks worked upon but not completed since last meeting [2-4 minutes]
+	
+	
+Goals for the next meeting [20+ minutes]
+	Clark will work on if tableau pile correctly returns if removing top card is legal/illegal 
+	Greg will work on Stock pile tests
+	Greg and Lynda will on Little Spider Javadoc
+	Yi and Zhije will work on Golf Javadoc
+	Greg will work on test.txt
+
+Schedule for the next week's set of pair programming meetings [3-4 minutes]
+	Friday 11am-1pm 

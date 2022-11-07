@@ -1,0 +1,20 @@
+Meeting Minutes for (date):
+
+Meeting Attendance: (list all students who were present) [1 minute]
+	Put an 'M' next to the name of the student taking minutes
+	Greg M
+	Clark
+	Zhijie
+	
+Tasks completed since last meeting [1-2 minutes]
+	Clark wrote most of Forty Theives game
+	
+Tasks worked upon but not completed since last meeting [2-4 minutes]
+	Easter Egg
+	
+Goals for the next meeting [20+ minutes]
+	N/A - Phase #3 Complete
+	
+
+Schedule for the next week's set of pair programming meetings [3-4 minutes]
+	N/A - Phase #3 Complete
