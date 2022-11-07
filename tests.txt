@@ -1,0 +1,311 @@
+
+	In our test package we have 2 Junit test       1) TestGolf 2) TestLittleSpider
+
+	TestGolf has 
+	
+	TableauTestInitial(); 
+	
+	1) TableauList size 
+	2) Tableau pile contain 5 cards;
+	3) golf is not null
+	
+	 =========================================================	
+	
+	TableauTestAddCorrectly();
+	
+	1) No test because GLFTableauTest cannot add correctly according to the Rule;
+	
+	 =========================================================	
+	
+	TableauTestAddNotCorrectly();
+	
+	1) Test add random card
+	2) Test addfrom homecell
+	3) Test addfrom stockPile
+	
+	 =========================================================	
+	
+ 	TestTableauRemoveCorrectly();
+ 	
+ 	1) Test remove the topCard
+ 	2) Test after removing the followingCard shoud become the topCard
+ 	3) Test after remove size change
+ 	
+ 	 =========================================================	
+ 	
+ 	TestTableauRemoveNoCorrectly();
+ 	
+ 	1) Test remove incorrectly
+ 	2) Size should remain the same
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellPile();
+ 	
+ 	1) Test Homecell initialization;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellRemoveCorrect();
+
+ 	1) Homecell cannot remove correctly;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellRemoveNoCorrect();
+ 	
+ 	1) Test remove incorrectly should return false;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellAddCorrectly();
+ 	
+ 	1) Test add sucessfully;
+ 	2) Test size change;
+ 	3) Test order change;
+ 	
+ 	 =========================================================	
+ 	
+ 	HomecellAddfromNoCorrectly();
+ 	
+ 	1) Test add incorrectly return false;
+ 	2) Test size remain the same
+ 	
+ 	 =========================================================	
+ 	
+ 	testStockPileInitial();
+ 	
+ 	1) Test initialization;
+ 	
+ 	 =========================================================	
+ 	
+ 	testStockPileaddCorrectly();
+ 	
+ 	1) Stock cannot be added
+ 	
+ 	 =========================================================	
+ 	
+ 	testStockPileaddNoCorrectly();
+ 	
+ 	1) Test stock add incorrectly return false;
+ 	
+ 	=========================================================	
+ 	
+ 	testStockPileRemoveCorrectly();
+ 	
+ 	1) Test remove
+ 	2) Test size change
+ 	3) Test order change
+ 	4) Test topcard change
+ 	
+ 	=========================================================	
+ 	testStockPileRemoveNoCorrectly()
+ 	
+ 	1) test remove return false;
+ 	
+ 	
+ 	==========================================================
+ 	 	==========================================================
+ 	 	==========================================================
+ 	 	==========================================================
+ 	 	==========================================================
+ 	TestLittleSpider 
+ 	
+ 		TableauTestInitial(); 
+	
+	1) TableauList size 
+	2) Tableau pile contain 5 cards;
+	3) golf is not null
+	
+	 =========================================================	
+	
+	TableauTestAddCorrectly();
+	
+	1) No test because GLFTableauTest cannot add correctly according to the Rule;
+	
+	 =========================================================	
+	
+	TableauTestAddNotCorrectly();
+	
+	1) Test add random card
+	2) Test addfrom homecell
+	3) Test addfrom stockPile
+	
+	 =========================================================	
+	
+ 	TestTableauRemoveCorrectly();
+ 	
+ 	1) Test remove the topCard
+ 	2) Test after removing the followingCard shoud become the topCard
+ 	3) Test after remove size change
+ 	
+ 	 =========================================================	
+ 	
+ 	TestTableauRemoveNoCorrectly();
+ 	
+ 	1) Test remove incorrectly
+ 	2) Size should remain the same
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellPile();
+ 	
+ 	1) Test Homecell initialization;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellRemoveCorrect();
+
+ 	1) Homecell cannot remove correctly;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellRemoveNoCorrect();
+ 	
+ 	1) Test remove incorrectly should return false;
+ 	
+ 	 =========================================================	
+ 	
+ 	TestHomecellAddCorrectly();
+ 	
+ 	1) Test add successfully;
+ 	2) Test size change;
+ 	3) Test order change;
+ 	
+ 	 =========================================================	
+ 	
+ 	HomecellAddfromNoCorrectly();
+ 	
+ 	1) Test add incorrectly return false;
+ 	2) Test size remain the same
+ 	
+ 	 =========================================================	
+ 	===========================================================
+ 	 	 =========================================================	
+ 	===========================================================
+ 	 	 =========================================================	
+ 	===========================================================
+	TestFortyTheivesInitial();
+	1) Initial deck size of 104
+	2)13 tab piles
+	3)8 homeCell piles
+	4)1 stock pile
+	5)1 waste pile
+	
+	TestTabInitial();
+	1) tab hold 3 piles
+	
+	TestTableauAddcorrectly();
+	1)Test Tab  correctly determines if adding a specific card is legal 
+	2)size changes
+	3)card being the tableau pile's new top card
+	
+	 =========================================================	
+	TestTableauAddIncorrectly()
+	1)Test Tab  correctly determines if adding a specific card is illegal 
+	2)size unchanged
+	
+	 =========================================================	
+	 TestTabPileRemove();
+	1) Test Tab  correctly determines if adding a specific card is legal.
+	
+	 =========================================================	
+	TestTabPileRemoveResult();
+	1)decreases its number of cards and results in following card being the new top card 
+	
+	 =========================================================	
+	TestTableauAddResult();
+	1)size changes
+	2)card being the tableau pile's new top card
+	
+	 =========================================================	
+	 
+	 
+	 TestHomecellPile()
+	 
+	 1)/Forty Thieves homecell piles initially hold 1 card
+	  =========================================================	
+	 
+	 TestHomecellRemoveNoCorrect() ps: Since HomeCell Pile cannot be removed correctly therefore there is only noCorrect
+	 TestHomecellAddfromNoCorrectly()
+	 1) Forty Thieves homecell pile correctly returns if removing top card is legal or illegal
+	 
+	  =========================================================	
+	 
+	 TestHomeCellRemoveResult()
+	 1)When an incorrect remove, the card should remain unmoved
+	 
+	  =========================================================	
+	 
+	TestHomecellAddCorrectly()
+	1)correctly determines if adding a specific card is legal;
+	
+	 =========================================================	
+	
+	TestHomeCellAddInCorrectly()
+	1)correctly determines if adding a specific card is illegal;
+	
+	 =========================================================	
+	
+	TestHomeCellAddResult();
+	1)increases its number of cards and results in that card being the Homecell pile's new top card 
+	
+	
+	
+	testStockPileInitial();
+	1)Forty Thieves stock pile initially holds 57 cards
+
+			 =========================================================	
+
+	testStockPileaddNoCorrectly()
+	1)correctly returns if adding a specific card is legal(e.g., always illegal)
+
+	 =========================================================	
+
+	testStockPileRemoveCorrectly()
+	 1)correctly returns if removing a specific card is legal or illegal (e.g., legal if the stock pile is not empty) 
+
+	 =========================================================	
+
+	testSTockPileRemoveResult();
+	1)results in the next card being the new top card in the stock pile, and makes the removed card the new top card on the waste pile
+
+	 =========================================================	
+
+
+	testWastePileInitial()
+	1)Forty Thieves waste pile initially holds 0 cards
+	
+	 =========================================================	
+
+	
+	testWastePileAddCorrectly()
+	1)Forty Thieves waste pile correctly returns if adding a specific card is legal
+	
+	 =========================================================	
+
+	
+	testWastePileAddInCorrectly ()
+	1)Forty Thieves waste pile correctly returns if adding a specific card is illegal
+	
+	 =========================================================	
+
+	
+	testWastePileRemoveCorrectly()
+	1)correctly returns if removing a specific card is legal
+	
+	 =========================================================	
+
+	
+	testWastePileRemoveIncorrectly()
+	1)correctly returns if removing a specific card is illegal
+	
+	 =========================================================	
+
+	
+	testWasteRemoveResult()
+	1)waste pile decreases its number of cards and results in the following card being the new top card 
+	
+	 =========================================================	
+
+	
